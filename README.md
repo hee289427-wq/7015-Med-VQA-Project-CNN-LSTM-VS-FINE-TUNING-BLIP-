@@ -1,5 +1,6 @@
 # 7015-Med-VQA-Project-CNN-LSTM-VS-FINE-TUNING-BLIP-
 # Medical Visual Question Answering (Med-VQA)
+#Creator: HE CHENZHEN(24205431) & WANG SHENGYONG(24080261)
 
 This repository contains the code for a course project on Medical Visual Question Answering using the VQA-RAD dataset.
 
