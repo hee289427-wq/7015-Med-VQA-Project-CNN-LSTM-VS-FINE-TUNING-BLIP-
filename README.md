@@ -4,9 +4,9 @@
 This repository contains the code for a course project on Medical Visual Question Answering using the VQA-RAD dataset.
 
 ## Project Structure
-- `preliminary project.ipynb`: CNN baseline(image only) model and Zero-shot BLIP model
-- `BLIP FINAL PROJECT.ipynb`: fine-tuning BLIP model
-- `CNN LSTM FINAL PROJECT.ipynb`: CNN + LSTM model
+- `preliminary_project.ipynb`: CNN baseline(image only) model and Zero-shot BLIP model
+- `BLIP_FINAL_PROJECT.ipynb`: fine-tuning BLIP model
+- `CNN_LSTM_FINAL_PROJECT.ipynb`: CNN + LSTM model
 - `processed`: The processed/ folder contains all preprocessed data splits derived from the VQA-RAD dataset and is used across both preliminary and final experiments. The dataset is split into training, validation, and test sets using a fixed 7:1:2 ratio to ensure reproducibility. For CNN-based models, filtered versions (*_filtered.json) are provided, retaining only the Top-K most frequent answers to enable closed-set classification. For BLIP-based experiments, the same splits are also exported in tabular format (*_blip.xlsx) for zero-shot and fine-tuning evaluation. All files reference images stored in the original VQA_RAD Image Folder.
 
 ## Dataset
